@@ -57,7 +57,7 @@ const Custumizer = () => {
 
       // this is calling the created server's route(post route), and generates the image from the DALL.E api, and returns it as photo
       const response = await fetch(
-        "http://https://threejs-ai-backend.onrender.com/api/v1/dalle",
+        "https://threejs-ai-backend.onrender.com/api/v1/dalle",
         {
           method: "POST",
           headers: {
